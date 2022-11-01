@@ -373,9 +373,99 @@ O primeiro é o <-html> conteúdo <-/html> nessa parte é onde será elaborado t
     <li><h3>
         Trabalhando com Formulários
     </h3></li>
+    <P>
+        Exemplo de formulário usando atributos text, number e passaword.
+    </P>
+    <form name="Exemplo" action="#">
+        Nome: <imput type="text" name="name" /> <br>
+        Idade:<imput type="number" name="age" /> <br>
+        Nome: <imput type="passaword" name="passaword" /> <br>
+        <button type="submit">Enviar</button>
+    </form>
+<p>
+    Exemplo de form com uso da tag "input tipo text"
+</p>
+<form action="#">
+    <label>Text: </label><input type="text" /> <br>
+    <label>Number: </label><input type="number" /> <br>
+    <label>Range: </label><input type="range" min="0" max="100" value="90" /> <br>
+    <label>Color: </label><input type="color" /> <br>
+    <label>E-mail: </label><input type="email" /> <br>
+    <label>Url: </label><input type="url" /> <br>
+    <label>Date: </label><input type="date" /> <br>
+    <label>Week: </label><input type="week" /> <br>
+    <label>Month: </label><input type="month" /> <br>
+    <label>Checkbox: </label><input type="checkbox" /> <br>
+    <label>Radio: </label><input type="radio" name="Aceita"/> <br>
+    <label>Hidden: </label><input type="hidden" /> <br>
+    <label>file: </label><input type="file" multiple/> <br>
+    <label>Search: </label><input type="search" /> <br>
+    <label>Button: </label><input type="submit" value="Enviar" /> <br>
+
+</form>
+<p>>Button e seus tipos</p>
+<form action="#">
+
+    <label> Nome:</label><input type="text" name="name"><br>
+    <label> Idade:</label><input type="number" name="age"><br>
+    <label> Passaword:</label><input type="password" name="passaword"><br>
+
+    <button type="button" onclick="alert('Cliquei aqui')">Clicável</button>
+</form>
+<p>Select e seus tipos</p>
+<form action="#">
+
+    <label> Nome:</label><input type="text" name="name"><br>
+    <label> Cargo:</label>
+    <select name="role">
+        <option selected value="">Selecione o Cargo</option>
+        <option value="Diretor">Diretor</option>
+        <option value="Gerente">Gerente</option>
+        <option value="Administrativo">Administrativo</option>
+        <option value="Desenvolvedor">Desenvolvedor</option>
+        <option value="Estagiario">Estagiario</option>
+        <option value="JovemAprendiz">Jovem aprendiz</option>
+    </select>
+    <br>
+    <label> Assunto:</label><input type="password" name="passaword"><br>
+
+    <button type="submit" onclick="alert('Enviado')">Enviar</button>
+</form>
+
+<p>Textarea</p>
+
+<form action="#">
+
+    <label> Nome:</label><input type="text" name="name"><br>
+    <label> Cargo:</label>
+    <select name="role">
+        <option selected value="">Selecione o Cargo</option>
+        <option value="Diretor">Diretor</option>
+        <option value="Gerente">Gerente</option>
+        <option value="Administrativo">Administrativo</option>
+        <option value="Desenvolvedor">Desenvolvedor</option>
+        <option value="Estagiario">Estagiario</option>
+        <option value="JovemAprendiz">Jovem aprendiz</option>
+    </select>
+    <br>
+    <label> Assunto:</label><input type="password" name="passaword"><br>
+    <label>Mensagem:</label>
+    <textarea name="Message"></textarea>
+
+    <button type="submit" onclick="alert('Enviado')">Enviar</button>
+</form>
+
+
     <li><h3>
         Estruturando seu HTML + Formatações
     </h3></li>    
+
+
+   
+    <fieldset> <legend>teste do Fildset</legend>
+        <p> <mark><i>Programe <sup>*</sup></i> o seu <b>futuro</b> <u>Global</u> agora!</mark></p>
+    </fieldset>
+
     <li><h3>
         Trabalhando com mídias
     </h3></li>
